@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "inlineSourceMap": true,
+    "declaration": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
