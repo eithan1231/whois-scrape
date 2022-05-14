@@ -4,7 +4,7 @@ import { Analytics } from "./Analytics";
 import { ConfigurationOptions, getConfigOptionNumber } from "./Config";
 dotenv.config();
 
-import { bulkInsertDomain } from "./RecordsModel";
+import { bulkInsertDomain, initialiseDatabase } from "./RecordsModel";
 import { DomainName, State } from "./State";
 import { transformRecords } from "./WhoisWrapper";
 
@@ -44,6 +44,8 @@ const workerAttempt = async (
 
 const main = async (): Promise<void> => {
   console.log("whois-scrape started");
+
+  await initialiseDatabase();
 
   const workersCount = getConfigOptionNumber(ConfigurationOptions.WorkersCount);
   const workersParallelCount = getConfigOptionNumber(ConfigurationOptions.WorkersParallelCount);

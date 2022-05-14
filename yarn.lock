@@ -821,10 +821,10 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-whois-light@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/whois-light/-/whois-light-1.1.4.tgz#4c557e1934d99cc9059f8e1b0c19cc324fbea2ae"
-  integrity sha512-2ApWUCBRDdH8A7T9mMetmTkuNJdZBqv2VBgvMvhjOTHVTBoF5DjlEnReqe6gzhfy5jABC6YdbLthBnTd9nnccQ==
+whois-light@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/whois-light/-/whois-light-1.1.6.tgz#d2129106800a4d8d7d7c64a8733d4651a018c305"
+  integrity sha512-XM0OAZoIoA82YXvsfELIPJrOg2/1GAQsaU3MsZg6pS7SY4Rla8W6m4XmBMNKaNklbOXAx/J5gMc/8vyeV3yfUA==
 
 widest-line@^3.1.0:
   version "3.1.0"

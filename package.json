@@ -16,7 +16,7 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "typescript": "^4.5.4",
-    "whois-light": "^1.1.4"
+    "whois-light": "^1.1.6"
   },
   "devDependencies": {
     "@types/node": "^17.0.7"

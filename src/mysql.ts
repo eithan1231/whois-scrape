@@ -8,4 +8,10 @@ const connection = mysql.createPool({
   password: getConfigOption(ConfigurationOptions.DBPassword),
 });
 
+export const connectionHostname = getConfigOption(ConfigurationOptions.DBHostname);
+export const connectionDatabase = getConfigOption(ConfigurationOptions.DBDatabase);
+export const connectionUsername = getConfigOption(ConfigurationOptions.DBUsername);
+export const connectionPassword = getConfigOption(ConfigurationOptions.DBPassword);
+export const connectionTableRecords = `records`;
+
 export default connection;
